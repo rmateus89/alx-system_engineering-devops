@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # pupet file to make changes
 
-file { 'etc/ssh/ssh_cofig':
+file { 'ect/ssh/ssh_cofig':
 	ensure => present,
 
 content =>"
