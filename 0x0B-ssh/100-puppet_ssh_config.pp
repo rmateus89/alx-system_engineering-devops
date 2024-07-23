@@ -2,7 +2,7 @@
 # pupet file to make changes
 
 
-file { 'etc/ssh/ssh_cofig':
+file { '/etc/ssh/ssh_config':
 ensure => present,
 content =>"
 	#SSH client configuration
