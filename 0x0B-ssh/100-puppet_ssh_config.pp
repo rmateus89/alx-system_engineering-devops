@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# 
-file { 'etc/ssh/ssh_config':
+# pupet file to make changes
+
+file { 'etc/ssh/ssh_cofig':
 	ensure => present,
 
 content =>"
